@@ -1,0 +1,22 @@
+<html lang="es">
+<head>
+    <title>Espacios</title>
+    <meta charset="utf-8">
+    <meta name="descripcion" content="Este es un documento nuevo">
+    <link rel="icon" href="IMG/icono.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="Style/styles.css">
+</head>
+<body>
+    <div id="header-container"></div>
+    <footer>
+    </footer>
+
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-container').innerHTML = data;
+            });
+    </script>
+</body>
+</html>
