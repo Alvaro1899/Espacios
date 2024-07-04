@@ -139,7 +139,7 @@ body{
 .contacto img {
     margin-right: 8px; /* Añade un margen entre el icono y el texto */
 }
-/*----------------------------------------------------------------------------------------------------*/
+/*-------ACERCA DE MI-------------------------------------------------------------------*/
 .Cont{
   width:95%;
   max-width: 1200px;
@@ -185,4 +185,66 @@ body{
 .Cont-texto a:hover {
     text-decoration: underline;
 }
-/*----------------------------------------------------------------------------------------------------*/
+/*-------------MOVIL-------------------------------------------------------------------*/
+@media (max-width:450px){
+  
+.Cont{
+  width:100%;
+  max-width: 430px;
+  flex-direction: column;
+  margin:auto;
+  padding: 40px 0;
+  display: flex;
+  gap: 0;
+}
+.Cont h1{
+    font-size: 15px;
+}
+.Cont p{
+    font-size: 10px;
+}
+.Cont a{
+    font-size: 10px;
+}
+.Cont strong{
+    font-size: 10px;
+}
+.Cont-texto{
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: justify;
+}
+.Cont-foto{
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 2px;
+}
+.Cont-foto h1{
+    font-size: 10px;
+    margin:10px;
+    text-align: left;
+    margin-bottom: 0;
+}
+.Cont-foto p{
+    margin: 5px 10px;
+    text-align: left;
+}
+.Cont-foto img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.Cont-texto a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+.Cont-texto a:hover {
+    text-decoration: underline;
+}
