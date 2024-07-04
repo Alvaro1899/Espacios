@@ -186,11 +186,11 @@ body{
     text-decoration: underline;
 }
 /*-------------MOVIL-------------------------------------------------------------------*/
-@media (max-width:450px){
+@media (max-width:700px){
   
 .Cont{
   width:100%;
-  max-width: 430px;
+  max-width: 600px;
   flex-direction: column;
   margin:auto;
   padding: 40px 0;
@@ -248,3 +248,5 @@ body{
 .Cont-texto a:hover {
     text-decoration: underline;
 }
+/*NAVBAR*/
+
